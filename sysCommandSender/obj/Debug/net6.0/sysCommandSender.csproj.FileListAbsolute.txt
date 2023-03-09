@@ -1,0 +1,15 @@
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\sysCommandSender.csproj.AssemblyReference.cache
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\sysCommandSender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\sysCommandSender.AssemblyInfoInputs.cache
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\sysCommandSender.AssemblyInfo.cs
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\sysCommandSender.csproj.CoreCompileInputs.cache
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\bin\Debug\net6.0\sysCommandSender.exe
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\bin\Debug\net6.0\sysCommandSender.deps.json
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\bin\Debug\net6.0\sysCommandSender.runtimeconfig.json
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\bin\Debug\net6.0\sysCommandSender.dll
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\bin\Debug\net6.0\sysCommandSender.pdb
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\sysCommandSender.dll
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\refint\sysCommandSender.dll
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\sysCommandSender.pdb
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\sysCommandSender.genruntimeconfig.cache
+C:\Users\admin-fr08ab\Desktop\sysCommandSender\obj\Debug\net6.0\ref\sysCommandSender.dll
