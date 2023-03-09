@@ -4,14 +4,16 @@
 <h3>Affichage de la console</h3>
 
 <button @onclick="displayConsole"> Display Console </button>
-@if (console != string.Empty)
+@if (consoleLines.Count>0 )
 {
-    <p>@console</p>
+    foreach(var i in consoleLines) {
+        <p>@i</p>
+    }
 }
 
 
 @code {
-    string console = string.Empty;
+    List<string> consoleLines = new List<string>();
 
     void displayConsole(){
         Process ps = new Process()
@@ -19,7 +21,7 @@
                 StartInfo =
                 {
                     FileName = "powershell.exe",
-                    Arguments = "whoami",
+                    Arguments = "ipconfig",
                     CreateNoWindow = true,
                     UseShellExecute = false,
                     RedirectStandardOutput = true,
@@ -27,6 +29,11 @@
             };
             ps.Start();
 
-            console = ps.StandardOutput.ReadLine();
+            while(!ps.StandardOutput.EndOfStream)
+            {
+                string line = ps.StandardOutput.ReadLine();
+                
+               consoleLines.Add(line);
+            }
     }
 }
