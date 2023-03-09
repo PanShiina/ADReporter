@@ -1,0 +1,32 @@
+﻿@page "/displayconsole"
+
+
+<h3>Affichage de la console</h3>
+
+<button @onclick="displayConsole"> Display Console </button>
+@if (console != string.Empty)
+{
+    <p>@console</p>
+}
+
+
+@code {
+    string console = string.Empty;
+
+    void displayConsole(){
+        Process ps = new Process()
+            {
+                StartInfo =
+                {
+                    FileName = "powershell.exe",
+                    Arguments = "whoami",
+                    CreateNoWindow = true,
+                    UseShellExecute = false,
+                    RedirectStandardOutput = true,
+                }
+            };
+            ps.Start();
+
+            console = ps.StandardOutput.ReadLine();
+    }
+}
